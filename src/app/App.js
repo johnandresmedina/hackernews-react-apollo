@@ -1,4 +1,7 @@
 import React from 'react';
+
+import Links from '../links/Links';
+
 import logo from './logo.svg';
 import './App.scss';
 
@@ -16,6 +19,9 @@ function App() {
             React
           </a>
         </span>
+        <div>
+          <Links />
+        </div>
       </header>
     </div>
   );
