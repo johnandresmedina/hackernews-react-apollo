@@ -2,9 +2,10 @@ import React from 'react';
 import Link from './Link';
 import { gql, useQuery } from '@apollo/client';
 
-const FEED_QUERY = gql`
-  {
+export const FEED_QUERY = gql`
+  query FeedQuery {
     feed {
+      count
       links {
         id
         url

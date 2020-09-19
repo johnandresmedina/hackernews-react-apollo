@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Layout from '../layout';
 import App from '../app';
-import About from '../about';
+import CreateLink from '../links/CreateLink';
 
 const Routes = () => {
   return (
@@ -13,8 +13,8 @@ const Routes = () => {
           <Route exact path='/'>
             <App />
           </Route>
-          <Route path='/about'>
-            <About />
+          <Route path='/create-link'>
+            <CreateLink />
           </Route>
         </Switch>
       </Layout>

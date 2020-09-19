@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Links from '../links/Links';
-
 import logo from './logo.svg';
 import './App.scss';
 

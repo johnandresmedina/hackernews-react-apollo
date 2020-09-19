@@ -70,8 +70,8 @@ const Header = () => {
               <MenuItem component={RouterLink} onClick={handleClose} to='/'>
                 Home
               </MenuItem>
-              <MenuItem component={RouterLink} onClick={handleClose} to='/about'>
-                About
+              <MenuItem component={RouterLink} onClick={handleClose} to='/create-link'>
+                Create Link
               </MenuItem>
             </Menu>
           </div>
